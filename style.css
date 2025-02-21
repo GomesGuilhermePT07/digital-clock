@@ -21,3 +21,25 @@ body{
     flex-direction: column;
     gap: 16px;
 }
+
+.clock{
+    display: flex;
+    gap: 50px;
+}
+
+.clock span{
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.clock span:not(:last-child)::after{
+    content: ':';
+    margin-bottom: 25px;
+    color: var(--color-light);
+}
+
+h2 strong{
+    color: var(--color-purple);
+}

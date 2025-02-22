@@ -25,6 +25,7 @@ body{
 .clock{
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .clock span{
